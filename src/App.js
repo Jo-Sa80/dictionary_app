@@ -14,7 +14,9 @@ function App() {
       <footer className=" App-footer">
         {" "}
         Coded by Johanna Sandvoß and hostet on{" "}
-        <a href="https://johannas-dictionary-app.netlify.app/">Netlify</a>
+        <a href="https://johannas-dictionary-app.netlify.app/" target="_blank">
+          Netlify
+        </a>
       </footer>
     </div>
   );
