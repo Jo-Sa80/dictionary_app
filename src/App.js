@@ -8,6 +8,12 @@ function App() {
         <img src={logo} alt="logo" className="img-fluid App-logo" />
         This is the Dictionary App{" "}
       </header>
+      <a
+        href="https://johannas-dictionary-app.netlify.app/"
+        className="btn btn-primary"
+      >
+        Netlify
+      </a>
     </div>
   );
 }
