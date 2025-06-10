@@ -1,4 +1,5 @@
 import "./App.css";
+import Dictionary from "./Dictionary.js";
 import logo from "./logo.png";
 
 function App() {
@@ -6,14 +7,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} alt="logo" className="img-fluid App-logo" />
-        This is the Dictionary App{" "}
       </header>
-      <a
-        href="https://johannas-dictionary-app.netlify.app/"
-        className="btn btn-primary"
-      >
-        Netlify
-      </a>
+      <main>
+        <Dictionary />
+      </main>
+      <footer className=" App-footer">
+        {" "}
+        Coded by Johanna Sandvoß and hostet on{" "}
+        <a href="https://johannas-dictionary-app.netlify.app/">Netlify</a>
+      </footer>
     </div>
   );
 }
