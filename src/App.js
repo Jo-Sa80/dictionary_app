@@ -17,7 +17,7 @@ function App() {
         <a
           href="https://johannas-dictionary-app.netlify.app/"
           target="_blank"
-          rel="noreffer"
+          rel="noreferrer"
         >
           Netlify
         </a>
