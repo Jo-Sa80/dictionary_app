@@ -1,5 +1,5 @@
 import React from "react";
-
+import Meaning from "./Meaning";
 export default function Results(props) {
   console.log(props.data);
   if (props.data) {
@@ -10,14 +10,11 @@ export default function Results(props) {
         <h3>Pronunciation: {props.data.phonetic}</h3>
         <br />
         <p>
-          {" "}
-          Different definitions for {props.data.word} are:
           {props.data.meanings.map(function (meaning, index) {
             return (
-              <ul>
-                {" "}
-                <li key={index}>{meaning.definition}</li>
-              </ul>
+              <div key={index}>
+                <Meaning meaning={meaning} />
+              </div>
             );
           })}
         </p>
