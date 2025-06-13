@@ -6,16 +6,22 @@ form {
 }
 .input {
   width: 70%;
+  padding: 6px 4px;
+  border-radius: 3px;
 }
 .submit {
-  background-color: rgb(194, 200, 218);
+  background-color: rgb(133, 212, 222);
   border-radius: 3px;
   margin-left: 5px;
+
+  padding: 6px 4px;
+  border-color: rgb(108, 160, 174);
   width: 15%;
+  transition: all 200ms ease-in-out;
 }
 :hover.submit {
   cursor: pointer;
-  color: rgb(70, 72, 77);
+  color: rgb(108, 160, 174);
   background-color: white;
 }
 .suggestion {

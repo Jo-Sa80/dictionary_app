@@ -6,7 +6,7 @@ export default function Results(props) {
   console.log(props.data);
   if (props.data) {
     return (
-      <div>
+      <div className="results">
         <section>
           <h2> {props.data.word}</h2>
           <br />
