@@ -1,12 +1,12 @@
 import "./App.css";
 import Dictionary from "./Dictionary.js";
-import logo from "./logo.png";
+import logo_blank from "./logo_blank.png";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} alt="logo" className="img-fluid App-logo" />
+        <img src={logo_blank} alt="logo" className="img-fluid App-logo" />
       </header>
       <main>
         <Dictionary />

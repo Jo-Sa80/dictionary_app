@@ -4,3 +4,22 @@
 form {
   text-align: center;
 }
+.input {
+  width: 70%;
+}
+.submit {
+  background-color: rgb(194, 200, 218);
+  border-radius: 3px;
+  margin-left: 5px;
+  width: 15%;
+}
+:hover.submit {
+  cursor: pointer;
+  color: rgb(70, 72, 77);
+  background-color: white;
+}
+.suggestion {
+  color: grey;
+  font-size: 12px;
+  padding-left: 60px;
+}
