@@ -1,12 +1,14 @@
 import React from "react";
+import "./Results.css";
 import Meaning from "./Meaning";
 export default function Results(props) {
+  console.log(props.data);
   if (props.data) {
     return (
       <div>
         <h2> {props.data.word}</h2>
         <br />
-        <h3>Pronunciation: {props.data.phonetic}</h3>
+        <h3>Pronunciation: /{props.data.phonetic}/</h3>
         <br />
 
         {props.data.meanings.map(function (meaning, index) {
