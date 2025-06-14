@@ -13,7 +13,15 @@ function App() {
       </main>
       <footer className=" App-footer">
         {" "}
-        Coded by Johanna Sandvoß and hostet on{" "}
+        Coded by Johanna Sandvoß sourced on{" "}
+        <a
+          href="https://github.com/Jo-Sa80/dictionary_app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>{" "}
+        and hostet on{" "}
         <a
           href="https://johannas-dictionary-app.netlify.app/"
           target="_blank"

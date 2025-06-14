@@ -1,0 +1,16 @@
+.pictureBox {
+  display: grid;
+  max-width: 100%;
+  grid-gap: 10px;
+
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pictureBox img {
+  border-radius: 5px;
+}
+@media (max-width: 600px) {
+  .pictureBox {
+    grid-template-columns: 1fr 1fr;
+  }
+}
