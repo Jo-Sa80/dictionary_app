@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Images(props) {
-  console.log(props.images);
   if (props.images) {
     return (
       <div className="Images">
@@ -10,7 +9,7 @@ export default function Images(props) {
             return (
               <div key={index}>
                 {" "}
-                <img src={images.url} alt="foto" />
+                <img src={images.src.original} alt={images.alt} />
               </div>
             );
           })}
